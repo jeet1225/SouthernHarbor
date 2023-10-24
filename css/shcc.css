@@ -712,6 +712,7 @@ footer h6{
 .pagecont{
 	width: 100%;
 	padding: 100px 0;
+	text-align: center;
 	border-bottom: 1px solid #efefef;
 }
 .page_tit{
@@ -802,17 +803,16 @@ table.pricetable.table3 tr:nth-child(even){
 .pr7{
 	background: url(../img/price_bg7.png) no-repeat right bottom;
 }
-.fineall{
+.fd1{
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 75px;
 }
-.fineall > div{
+.fd1 > div{
 	display: inline-block;
 	background-size: cover;
 	width: 30%;
 	height: 550px;
-	padding-top: 190px;
 	margin: 10px;
 	text-align: center;
 	font-size: 25px;
@@ -836,6 +836,109 @@ table.pricetable.table3 tr:nth-child(even){
 }
 .food6{
 	background: url(../img/fd_bg3.png) no-repeat center #efefef;
+}
+.fineall > div span{
+	display: block;
+	border: 1px solid #fff;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	margin: 20px;
+	padding-top: 170px;
+}
+.fd2 > div{
+	display: inline-block;
+	background-position-y: 25px;
+	width: 350px;
+	height: 350px;
+	margin: 20px;
+	padding-top: 250px;
+	font-size: 25px;
+	border-radius: 50%;
+	color: #fff;
+}
+.fd2_icon1{
+	background: url(../img/fd_icon1.png) no-repeat top center #ccc;
+}
+.fd2_icon2{
+	background: url(../img/fd_icon2.png) no-repeat top center #ccc;
+}
+.fd2_icon3{
+	background: url(../img/fd_icon3.png) no-repeat top center #ccc;
+}
+.fd2_icon4{
+	background: url(../img/fd_icon4.png) no-repeat top center #ccc;
+}
+.fd2_icon5{
+	background: url(../img/fd_icon5.png) no-repeat top center #ccc;
+}
+.fd2_icon6{
+	background: url(../img/fd_icon6.png) no-repeat top center #ccc;
+}
+.fd3{
+	background: #ccc;
+}
+.fd3a.owl-carousel {
+	width: 90%;
+	margin: 80px auto;
+	text-align: center;
+}
+.fd3a.owl-carousel .owl-item{
+	float: none;
+	display: inline-block;
+	text-align: center;
+}
+.fd3a.owl-carousel .owl-item > div{
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	border: 10px solid #fff;
+	margin: 0 auto;
+}
+.fd3a.owl-carousel .owl-nav .owl-prev,.fd3a.owl-carousel .owl-nav .owl-next{
+	position: absolute;
+	top: 25%;
+	left: -3%;
+	transition: 0.3s;
+	color: #888;
+	height: 50px;
+}
+.fd3a.owl-carousel .owl-nav .owl-next {
+	left: auto;
+	right: -3%;
+}
+.fd3a.owl-carousel .owl-nav button > span {
+	font-size: 5rem;
+}
+.fd3a.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+	color: #fff;
+}
+.fd3_pic1{
+	background: url(../img/food1.jpg) no-repeat center #ccc;
+}
+.fd3_pic2{
+	background: url(../img/food2.jpg) no-repeat center #ccc;
+}
+.fd3_pic3{
+	background: url(../img/food3.jpg) no-repeat center #ccc;
+}
+.fd3_pic4{
+	background: url(../img/food4.jpg) no-repeat center #ccc;
+}
+.fd3_pic5{
+	background: url(../img/food6.jpg) no-repeat center #ccc;
+}
+.fd3_pic6{
+	background: url(../img/008.jpg) no-repeat center #ccc;
+}
+.fd3_pic7{
+	background: url(../img/food7.jpg) no-repeat center #ccc;
+}
+.fd3_pic8{
+	background: url(../img/food8.jpg) no-repeat center #ccc;
+}
+.fd3_pic9{
+	background: url(../img/food9.jpg) no-repeat center #ccc;
 }
 
 

@@ -92,7 +92,7 @@ a.water{
 	height: 45px;
 	width: 45px;
 }
-.active{
+.activeclose{
 	background:url(../img/close.png) no-repeat;
 	background-size: contain;
 }
