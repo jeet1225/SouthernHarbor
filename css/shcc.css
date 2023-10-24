@@ -156,6 +156,12 @@ a.water:hover{
 .p9{
 	background: url(../img/009.jpg) no-repeat center;
 }
+.p10{
+	background: url(../img/index_6.jpg) no-repeat center;
+}
+.p11{
+	background: url(../img/index_3.jpg) no-repeat center;
+}
 .kv_txt{
 	position: absolute;
 	z-index: 3;
@@ -723,6 +729,7 @@ table.pricetable{
 	border-collapse: collapse;
 	width: 100%;
 	border: 1px solid #ccc;
+	background: rgba(255, 255, 255, 0.8);
 }
 table.pricetable th,table.pricetable td{
 	padding: 10px;
@@ -739,7 +746,7 @@ table.pricetable th:first-child{
 	width: 25%;
 }
 table.pricetable tbody tr:nth-child(even){
-	background: #efefef;
+	background: rgba(225, 225, 225, 0.5);
 }
 .red{
 	color: #e74269;
@@ -749,7 +756,7 @@ table.pricetable.table2 th:first-child,table.pricetable.table2 th:last-child{
 	width: 30%;
 }
 table.pricetable.table3 tr:nth-child(even){
-	background: #fff;
+	background: transparent;
 }
 .page_list{
 	margin: 0 auto;
@@ -770,10 +777,67 @@ table.pricetable.table3 tr:nth-child(even){
 	padding: 20px 0;
 	text-align: center;
 	margin: 10px 0.5%;
-	border: 1px solid #ccc;
+	background: #efefef;
 	transition: 0.3s;
 }
 .moreservice > div:hover{
 	background: #ccc;
 	font-weight: 500;
 }
+.pr1{
+	background: url(../img/price_bg1.png) no-repeat right bottom;
+}
+.pr2{
+	background: url(../img/price_bg2.png) no-repeat left bottom;
+}
+.pr3{
+	background: url(../img/price_bg3.png) no-repeat right bottom;
+}
+.pr5{
+	background: url(../img/price_bg5.png) no-repeat right bottom;
+}
+.pr6{
+	background: url(../img/price_bg6.png) no-repeat left bottom;
+}
+.pr7{
+	background: url(../img/price_bg7.png) no-repeat right bottom;
+}
+.fineall{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+.fineall > div{
+	display: inline-block;
+	background-size: cover;
+	width: 30%;
+	height: 550px;
+	padding-top: 190px;
+	margin: 10px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 3;
+	vertical-align: top;
+}
+.food1{
+	background: url(../img/food4.jpg) no-repeat center;
+}
+.food2{
+	background: url(../img/fd_bg1.png) no-repeat center #efefef;
+}
+.food3{
+	background: url(../img/food5.jpg) no-repeat center;
+}
+.food4{
+	background: url(../img/fd_bg2.png) no-repeat center #efefef;
+}
+.food5{
+	background: url(../img/food6.jpg) no-repeat center;
+}
+.food6{
+	background: url(../img/fd_bg3.png) no-repeat center #efefef;
+}
+
+
+
+
