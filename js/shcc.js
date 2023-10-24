@@ -22,7 +22,7 @@ $(function() {
     });
     $(".fd3a.owl-carousel").owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         nav: true,
         stagePadding: 0,

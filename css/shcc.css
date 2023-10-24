@@ -940,6 +940,9 @@ table.pricetable.table3 tr:nth-child(even){
 .fd3_pic9{
 	background: url(../img/food9.jpg) no-repeat center #ccc;
 }
+.tips{
+	font-size: 14px;
+}
 
 
 
