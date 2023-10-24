@@ -843,7 +843,7 @@ table.pricetable.table3 tr:nth-child(even){
 	width: calc(100% - 40px);
 	height: calc(100% - 40px);
 	margin: 20px;
-	padding-top: 170px;
+	padding-top: 175px;
 }
 .fd2 > div{
 	display: inline-block;
@@ -860,19 +860,19 @@ table.pricetable.table3 tr:nth-child(even){
 	background: url(../img/fd_icon1.png) no-repeat top center #ccc;
 }
 .fd2_icon2{
-	background: url(../img/fd_icon2.png) no-repeat top center #ccc;
+	background: url(../img/fd_icon2.png) no-repeat top center #aaa;
 }
 .fd2_icon3{
 	background: url(../img/fd_icon3.png) no-repeat top center #ccc;
 }
 .fd2_icon4{
-	background: url(../img/fd_icon4.png) no-repeat top center #ccc;
+	background: url(../img/fd_icon4.png) no-repeat top center #aaa;
 }
 .fd2_icon5{
 	background: url(../img/fd_icon5.png) no-repeat top center #ccc;
 }
 .fd2_icon6{
-	background: url(../img/fd_icon6.png) no-repeat top center #ccc;
+	background: url(../img/fd_icon6.png) no-repeat top center #aaa;
 }
 .fd3{
 	background: #eee;
@@ -943,7 +943,73 @@ table.pricetable.table3 tr:nth-child(even){
 .tips{
 	font-size: 14px;
 }
-
-
-
-
+.equ1{
+	padding: 85px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.equ1 > div{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	width: 45%;
+	height: 300px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+	vertical-align: top;
+}
+.equ1 > div.equ1e{
+	width: calc(90% + 40px);
+	height: 400px;
+}
+.equ1 > div > div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.equpic{
+	width: 350px;
+	height: 300px;
+	border-radius: 10px 0 0 10px;
+}
+.equ1a .equpic{
+	background: url(../img/equ1.jpg) no-repeat center #fff;
+	background-size: cover;
+}
+.equ1b .equpic{
+	background: url(../img/equ3.jpg) no-repeat center #fff;
+	background-size: contain;
+}
+.equ1c .equpic{
+	background: url(../img/equ4.jpg) no-repeat center #fff;
+	background-size: contain;
+}
+.equ1d .equpic{
+	background: url(../img/equ2.jpg) no-repeat center right #fff;
+	background-size: cover;
+}
+.equ1e .equpic{
+	background: url(../img/equ5.jpg) no-repeat center #fff;
+	background-size: contain;
+	width: 600px;
+	height: 400px;
+}
+.equtxt{
+	display: inline-block;
+	width: calc(100% - 360px);
+	padding: 0 30px;
+}
+.equ1e .equtxt{
+	width: calc(100% - 610px);
+}
+.equtxt span{
+	display: block;
+	margin-top: 20px;
+	color: #3588bd;
+}
+.page_tit2{
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+}
