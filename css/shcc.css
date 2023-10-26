@@ -943,12 +943,12 @@ table.pricetable.table3 tr:nth-child(even){
 .tips{
 	font-size: 14px;
 }
-.equ1{
+.equ{
 	padding: 85px 0;
 	margin: 0 auto;
 	text-align: center;
 }
-.equ1 > div{
+.equ > div{
 	position: relative;
 	display: inline-block;
 	text-align: left;
@@ -959,50 +959,50 @@ table.pricetable.table3 tr:nth-child(even){
 	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
 	vertical-align: top;
 }
-.equ1 > div.equ1e{
+.equ > div.equ5{
 	width: calc(90% + 40px);
 	height: 400px;
 }
-.equ1 > div > div{
+.equ > div > div,.ser > div > div{
 	display: inline-block;
 	vertical-align: middle;
 }
-.equpic{
+.equ_pic{
 	width: 350px;
 	height: 300px;
 	border-radius: 10px 0 0 10px;
 }
-.equ1a .equpic{
+.equ1 .equ_pic{
 	background: url(../img/equ1.jpg) no-repeat center #fff;
 	background-size: cover;
 }
-.equ1b .equpic{
+.equ2 .equ_pic{
 	background: url(../img/equ3.jpg) no-repeat center #fff;
 	background-size: contain;
 }
-.equ1c .equpic{
+.equ3 .equ_pic{
 	background: url(../img/equ4.jpg) no-repeat center #fff;
 	background-size: contain;
 }
-.equ1d .equpic{
+.equ4 .equ_pic{
 	background: url(../img/equ2.jpg) no-repeat center right #fff;
 	background-size: cover;
 }
-.equ1e .equpic{
+.equ5 .equ_pic{
 	background: url(../img/equ5.jpg) no-repeat center #fff;
 	background-size: contain;
 	width: 600px;
 	height: 400px;
 }
-.equtxt{
+.equ_txt{
 	display: inline-block;
 	width: calc(100% - 360px);
 	padding: 0 30px;
 }
-.equ1e .equtxt{
+.equ5 .equ_txt{
 	width: calc(100% - 610px);
 }
-.equtxt span{
+.equ_txt span{
 	display: block;
 	margin-top: 20px;
 	color: #3588bd;
@@ -1013,3 +1013,66 @@ table.pricetable.table3 tr:nth-child(even){
 	padding-bottom: 20px;
 	letter-spacing: 4px;
 }
+.serpage.page_tit{
+	text-align: center;
+	padding-top: 100px;
+}
+.ser{
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.ser > div{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 320px;
+	height: 450px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+	vertical-align: top;
+}
+.ser_pic{
+	width: 200px;
+	height: 200px;
+}
+.ser_txt .page_tit2{
+	text-align: center;
+}
+.ser_txt{
+	padding: 20px 20px;
+	text-align: left;
+}
+.ser1 .ser_pic{
+	background: url(../img/ser_icon01.png) no-repeat center bottom;
+}
+.ser2 .ser_pic{
+	background: url(../img/ser_icon02.png) no-repeat center bottom;
+}
+.ser3 .ser_pic{
+	background: url(../img/ser_icon03.png) no-repeat center bottom;
+}
+.ser4 .ser_pic{
+	background: url(../img/ser_icon04.png) no-repeat center bottom;
+}
+.ser5 .ser_pic{
+	background: url(../img/ser_icon05.png) no-repeat center bottom;
+}
+.ser6 .ser_pic{
+	background: url(../img/ser_icon06.png) no-repeat center bottom;
+}
+.ser7 .ser_pic{
+	background: url(../img/ser_icon07.png) no-repeat center bottom;
+}
+.ser8 .ser_pic{
+	background: url(../img/ser_icon08.png) no-repeat center bottom;
+}
+.ser9 .ser_pic{
+	background: url(../img/ser_icon09.png) no-repeat center bottom;
+}
+.ser10 .ser_pic{
+	background: url(../img/ser_icon10.png) no-repeat center bottom;
+}
+
+
