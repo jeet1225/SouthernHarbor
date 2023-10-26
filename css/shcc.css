@@ -162,6 +162,27 @@ a.water:hover{
 .p11{
 	background: url(../img/index_3.jpg) no-repeat center;
 }
+.p12{
+	background: url(../img/des_pic1.jpg) no-repeat center;
+}
+.p13{
+	background: url(../img/des_pic2.jpg) no-repeat center;
+}
+.p14{
+	background: url(../img/des_pic3.jpg) no-repeat center;
+}
+.p15{
+	background: url(../img/des_pic4.jpg) no-repeat center;
+}
+.p16{
+	background: url(../img/des_pic5.jpg) no-repeat center;
+}
+.p17{
+	background: url(../img/des_pic6.jpg) no-repeat center;
+}
+.p18{
+	background: url(../img/des_pic7.jpg) no-repeat center;
+}
 .kv_txt{
 	position: absolute;
 	z-index: 3;
@@ -178,7 +199,7 @@ a.water:hover{
   90% {margin:5px 0 0 5px} 
   100%{margin:0}
 }
-.kv_txt > div,.loc_kvtxt > div{
+.kv_txt > div,.loc_kvtxt > div,.des_kvtxt > div{
 	position: absolute;
 	border-radius: 50%;
 	background: rgba(46, 46, 46, 0.7);
@@ -555,20 +576,20 @@ footer h6{
 	padding: 20px 0;
 }
 /*------page------*/
-.loc_kv{
+.loc_kv,.des_kv{
 	position: relative;
 	width: 100%;
 	height: 585px;
-	padding-top: 85px ;
+	padding-top: 90px ;
 }
-.loc_kv .kv_photo{
+.loc_kv .kv_photo,.des_kv .kv_photo{
 	height: 500px;
 }
-.loc_kv .kv_photo .owl-item > div{
+.loc_kv .kv_photo .owl-item > div,.des_kv .kv_photo .owl-item > div{
 	height: 500px;
 	background-position: 50% 100%;
 }
-.loc_kvtxt{
+.loc_kvtxt,.loc_kvtxt,.des_kvtxt{
 	position: absolute;
 	width: 100%;
 	height: 500px;
@@ -948,7 +969,7 @@ table.pricetable.table3 tr:nth-child(even){
 	margin: 0 auto;
 	text-align: center;
 }
-.equ > div{
+.equ > div,.des_block > div{
 	position: relative;
 	display: inline-block;
 	text-align: left;
@@ -963,11 +984,11 @@ table.pricetable.table3 tr:nth-child(even){
 	width: calc(90% + 40px);
 	height: 400px;
 }
-.equ > div > div,.ser > div > div{
+.equ > div > div,.ser > div > div,.des_block > div > div{
 	display: inline-block;
 	vertical-align: middle;
 }
-.equ_pic{
+.equ_pic,.des_pic{
 	width: 350px;
 	height: 300px;
 	border-radius: 10px 0 0 10px;
@@ -994,7 +1015,7 @@ table.pricetable.table3 tr:nth-child(even){
 	width: 600px;
 	height: 400px;
 }
-.equ_txt{
+.equ_txt,.des_txt{
 	display: inline-block;
 	width: calc(100% - 360px);
 	padding: 0 30px;
@@ -1013,7 +1034,7 @@ table.pricetable.table3 tr:nth-child(even){
 	padding-bottom: 20px;
 	letter-spacing: 4px;
 }
-.serpage.page_tit{
+.serpage{
 	text-align: center;
 	padding-top: 100px;
 }
@@ -1074,5 +1095,49 @@ table.pricetable.table3 tr:nth-child(even){
 .ser10 .ser_pic{
 	background: url(../img/ser_icon10.png) no-repeat center bottom;
 }
-
-
+.des_kvtxt > div{
+	width: 350px;
+	height: 350px;
+	font-size: 25px;
+	font-weight: 300;
+	padding: 85px 20px 0 40px;
+	outline: 15px solid rgba(46, 46, 46, 0.7);
+}
+.des_kvtxt .t6{
+	top: 40px;
+	left: calc(50% - 380px);
+}
+.des_kvtxt .t7{
+	top: 110px;
+	left: calc(50% + 20px);
+}
+.des_p1{
+	margin: 100px auto;
+}
+.des_p1 p{
+	text-align: left;
+	margin-bottom: 20px ;
+}
+.des_p2{
+	text-align: center;
+}
+.des_block1 .des_pic{
+	background: url(../img/des_pic1.jpg) no-repeat center;
+	background-size: cover;
+}
+.des_block2 .des_pic{
+	background: url(../img/des_pic2.jpg) no-repeat center ;
+	background-size: cover;
+}
+.des_block3 .des_pic{
+	background: url(../img/des_pic3.jpg) no-repeat cente;
+	background-size: cover;
+}
+.des_block4 .des_pic{
+	background: url(../img/des_pic4.jpg) no-repeat center;
+	background-size: cover;
+}
+.tips2{
+	color: #3588bd;
+	padding: 20px 0 50px 0;
+}
