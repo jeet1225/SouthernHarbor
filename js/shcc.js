@@ -51,6 +51,21 @@ $(function() {
             },
         }
     });
+    $(".slidpic.owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        dots: false,
+        nav: true,
+        stagePadding: 0,
+        margin: 0,
+        slideBy: 1,
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+                items: 1,
+            },
+        }
+    });
     $(window).on("resize", function() {
     if ($(this).width() > 1000) {
         $(".toggle").removeClass("activeclose");
