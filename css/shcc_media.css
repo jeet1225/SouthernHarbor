@@ -46,6 +46,9 @@
 .map{
 	width: 90%;
 }
+.w1200{
+	width: 90%;
+}
 }
 @media screen and (max-width:1120px){
 a.water{
@@ -169,6 +172,20 @@ a.water{
 .p3icon > div p {
     margin-top:0
 }
+.loc_kv,.des_kv,.equ{
+	padding-top: 75px ;
+}
+.w1200{
+	width: 96%;
+}
+.table4 img {
+    width: 250px;
+}
+}
+@media screen and (max-width:1080px){
+.moreservice > div {
+	width: 31%;
+}
 }
 @media screen and (max-width:880px){
 .t1{
@@ -228,6 +245,74 @@ a.water{
 	left: calc(50% - 40px);
 	width: 360px;
 }
+.op1 > div{
+	width: 90%;
+	padding: 30px;
+	top: 20%;
+	left: 5%;
+}
+.table4 img {
+    width: 200px;
+}
+.page_list li{
+	padding: 5px 0;
+}
+.pricetable{
+	letter-spacing: 0;
+}
+.page_tit p {
+    font-size: 18px;
+    margin: 10px auto;
+    font-weight: 400;
+	letter-spacing: 0;
+}
+}
+@media screen and (max-width:800px){
+.moreservice > div {
+	font-size: 16px;
+	letter-spacing: 0;
+}
+.pricetable_out{
+	overflow: auto;
+}
+.pricetable_out table{
+	width: 750px;
+}
+}
+@media screen and (max-width:760px){
+.loc_kvtxt .t4{
+	width: 290px;
+	height: 290px;
+	padding: 90px 0 0 20px;
+	font-size: 25px;
+	outline: 10px solid rgba(46, 46, 46, 0.7);
+	top: 30px;
+	left: calc(50% - 220px);
+}
+.loc_kvtxt .t5{
+	width: 230px;
+	height: 230px;
+	font-size: 18px;
+	padding: 80px 0 0 15px;
+	top: 240px;
+	left: calc(50% - 15px);
+}
+.loc_sp{
+	width: 90%;
+}
+.loc_sp ul li{
+	text-indent: -35px;
+	padding-left: 35px;
+}
+.loc_sp ul li i{
+	left: 0px;
+}
+.page_list {
+    padding-left: 10px;
+}
+.page_list li{
+	padding:0;
+}
 }
 @media screen and (max-width:660px){
 a.water{
@@ -282,6 +367,29 @@ a.water{
 .footer2{
 	letter-spacing: 0;
 	padding-bottom: 70px;
+}
+.table4 td{
+	display: block;
+}
+.table4 td:first-child,.table4 img {
+	text-align: center;
+	margin: 0 auto;
+}
+.page_list{
+	padding-left: 30px;
+}
+.moreservice > div {
+	width: 30%;
+	height: 100px;
+	padding-top: 40px;
+    margin: 5px;
+	vertical-align: top;
+}
+.moreservice > div.pt1{
+	padding-top: 26px;
+}
+.f_m2{
+	display: block;
 }
 }
 @media screen and (max-width:550px){
@@ -349,5 +457,8 @@ a.water{
 }
 .part6 > div.map{
 	margin-top: 20px;
+}
+.f_m{
+	display: block;
 }
 }

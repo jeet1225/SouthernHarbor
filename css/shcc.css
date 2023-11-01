@@ -34,7 +34,7 @@ html{
 	line-height: 1.5;
 	letter-spacing: 2px;
 }
-.hide,.f_pc1,.toggle{
+.hide,.f_pc1,.toggle,.f_m,.f_m2{
 	display: none;
 }
 a.water{
@@ -243,7 +243,7 @@ a.water:hover{
 	left: calc(50% + 50px);
 	outline: 15px solid rgba(46, 46, 46, 0.7);
 	animation-delay: 1s;
-  animation-duration: 18s;
+	animation-duration: 18s;
 }
 .t3{
 	width: 150px;
@@ -256,7 +256,7 @@ a.water:hover{
 	cursor: pointer;
 	transition: 0.3s;
 	animation-delay: 2s;
-  animation-duration: 20s;
+	animation-duration: 20s;
 }
 .t3:hover{
 	filter: brightness(1.3);
@@ -581,6 +581,7 @@ footer h6{
 	width: 100%;
 	height: 585px;
 	padding-top: 85px ;
+	overflow: hidden;
 }
 .loc_kv .kv_photo,.des_kv .kv_photo{
 	height: 500px;
@@ -616,6 +617,8 @@ footer h6{
 	outline: 10px solid rgba(46, 46, 46, 0.7);
 	top: 220px;
 	left: calc(50% + 100px);
+	animation-delay: 1s;
+	animation-duration: 18s;
 }
 .loc_sp{
 	text-align: center;
@@ -774,10 +777,16 @@ table.pricetable tbody tr:nth-child(even){
 	color: #e74269;
 	font-weight: 700;
 }
-table.pricetable.table2 th:first-child,table.pricetable.table2 th:last-child{
+table.pricetable.table2 th:first-child{
+	width: 24%;
+}
+table.pricetable.table2 th:nth-child(2){
+	width: 10%;
+}
+table.pricetable.table3 th:first-child,table.pricetable.table3 th:last-child{
 	width: 30%;
 }
-table.pricetable.table3 tr:nth-child(even){
+table.pricetable.table4 tr:nth-child(even){
 	background: transparent;
 }
 .page_list{
@@ -789,7 +798,7 @@ table.pricetable.table3 tr:nth-child(even){
 .page_list li{
 	padding: 10px 0;
 }
-.table3 img{
+.table4 img{
 	width: 300px;
 }
 .moreservice > div{
@@ -936,11 +945,11 @@ table.pricetable.table3 tr:nth-child(even){
 }
 .slidpic.owl-carousel .owl-nav .owl-prev,.slidpic.owl-carousel .owl-nav .owl-next{
 	top: 32%;
-	left: -4%;
+	left: 0%;
 }
 .slidpic.owl-carousel .owl-nav .owl-next {
 	left: auto;
-	right: -4%;
+	right: 0%;
 }
 .fd3_pic1{
 	background: url(../img/food1.jpg) no-repeat center #ccc;
@@ -1152,7 +1161,7 @@ table.pricetable.table3 tr:nth-child(even){
 .fp1{
 	width: 100%;
 	text-align: center;
-	padding: 85px 0;
+	padding: 100px 0;
 }
 .fp1 > div{
 	display: inline-block;
@@ -1261,14 +1270,16 @@ table.pricetable.table3 tr:nth-child(even){
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 30px;
-	width: 50%;
+	width: 53%;
 	text-align: left;
 }
 .fp2 > div.slidtxt{
-	width: 40%;
+	width: 38%;
 }
 .slidp{
+	width: 90%;
 	height: 450px;
+	margin: 0 5%;
 }
 .slidp iframe{
 	width: 100%;
@@ -1337,10 +1348,11 @@ table.pricetable.table3 tr:nth-child(even){
 .slidptxt{
 	position: absolute;
 	background: rgba(0, 0, 0, 0.6);
-	width: 100%;
+	width: 90%;
 	bottom: 0;
-	padding: 20px 30px;
+	padding: 15px 30px;
 	color: #fff;
+	left: 5%;
 }
 .slidptxt p{
 	font-size: 22px;
