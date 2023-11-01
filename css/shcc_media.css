@@ -41,6 +41,28 @@
 .p3a,.p3b,.p3c{
 	background-position-x: 10%;
 }
+.equ_pic, .des_pic {
+    width: 300px;
+}
+.equ_txt, .des_txt {
+    width: calc(100% - 310px);
+    padding: 0 10px;
+}
+.fp2 > div.slidtxt {
+    width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.fp2 ul {
+	width: 600px;
+	text-align: left;
+	margin: 0 auto;
+}
+.fp2 > div, .slidpic.owl-carousel.owl-theme {
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 80%;
+}
 }
 @media screen and (max-width:1250px){
 .map{
@@ -48,6 +70,14 @@
 }
 .w1200{
 	width: 90%;
+} 
+.des_block > div {
+    display: block;
+    width: calc(90% + 40px);
+	margin-left: 3%;
+}
+.plan_txt {
+    margin-right: 50px;
 }
 }
 @media screen and (max-width:1120px){
@@ -181,10 +211,41 @@ a.water{
 .table4 img {
     width: 250px;
 }
+.equ > div {
+    display: block;
+    width: calc(90% + 40px);
+	margin-left: 3%;
+}
+.equ5 .equ_pic {
+    width: 300px;
+    height: 400px;
+}
+.equ5 .equ_txt {
+    width: calc(100% - 310px);
+}
+.fp1 > div {
+    display: block;
+	margin: 0 auto;
+}
+.fp1 > div.plan_txt {
+    margin:0 auto 20px auto;
+}
+.plan_txt ul {
+	width: 96%;
+	margin-left: 2%;
+}
+.plan_txt ul li {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
 }
 @media screen and (max-width:1080px){
 .moreservice > div {
 	width: 31%;
+}
+.fp2 > div.slidtxt,.fp2 > div, .slidpic.owl-carousel.owl-theme {
+    width: 96%;
 }
 }
 @media screen and (max-width:880px){
@@ -278,6 +339,26 @@ a.water{
 .pricetable_out table{
 	width: 750px;
 }
+.des_kvtxt > div{
+	width: 250px;
+	height: 250px;
+	font-size: 18px;
+	padding: 60px 10px 0 30px;
+	outline: 10px solid rgba(46, 46, 46, 0.7);
+}
+.des_kvtxt .t6{
+	top: 30px;
+	left: calc(50% - 220px);
+}
+.des_kvtxt .t7{
+	top: 220px;
+	left: calc(50% - 50px);
+}
+.plan_txt ul li {
+	display: block;
+	width: 100%;
+}
+
 }
 @media screen and (max-width:760px){
 .loc_kvtxt .t4{
@@ -391,6 +472,45 @@ a.water{
 .f_m2{
 	display: block;
 }
+.equ > div, .des_block > div,.equ > div.equ5 {
+	height: 450px;
+	width: calc(100% - 40px);
+	margin-left: 3%;
+}
+.des_block > div{
+	height: fit-content;
+}
+.equ_pic,.equ5 .equ_pic, .des_pic{
+	width: 100%;
+	height: 250px;
+	display: block;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+.equ_txt, .des_txt,.equ5 .equ_txt {
+	display: block;
+    width: 90%;
+    padding: 0;
+	margin: 20px 5%;
+}
+.equ > div.equ5 {
+    height: 600px;
+}
+.fp1 {
+    padding: 100px 0 0 0;
+}
+.plan_main {
+	transform: scale(0.8);
+	transform-origin:80% 0 ;
+	width: 100%;
+}
+.fp2 ul {
+    width: 90%;
+}
+.plan_txt ul {
+    width: 90%;
+    margin-left: 5%;
+}
 }
 @media screen and (max-width:550px){
 .t1{
@@ -460,5 +580,14 @@ a.water{
 }
 .f_m{
 	display: block;
+}
+.plan_main {
+	transform-origin:50% 0 ;
+}
+}
+@media screen and (max-width:500px){
+
+.plan_main {
+	transform-origin:30% 0 ;
 }
 }

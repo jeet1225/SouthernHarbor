@@ -1127,6 +1127,7 @@ table.pricetable.table4 tr:nth-child(even){
 .des_kvtxt .t7{
 	top: 110px;
 	left: calc(50% + 20px);
+	animation-delay: 1s;
 }
 .des_p1{
 	margin: 100px auto;
