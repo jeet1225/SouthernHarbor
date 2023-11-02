@@ -3,6 +3,24 @@
 	padding: 150px 20px 0 20px;
 	letter-spacing: 0;
 }
+.fd1 > div {
+    height: 450px;
+}
+.fd1 > div span{
+	padding-top: 130px;
+}
+}
+@media screen and (max-width:1520px){
+.fd1 > div {
+	height: 400px;
+	font-size: 20px;
+	line-height: 2;
+}
+.fd1 > div span{
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	margin: 10px;
+}
 }
 @media screen and (max-width:1450px){
 .sp_txt{
@@ -78,6 +96,21 @@
 }
 .plan_txt {
     margin-right: 50px;
+}
+.fd1 > div {
+	height: 350px;
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 0;
+}
+.fd1 > div span{
+	padding-top: 120px;
+}
+.bk_p1{
+	width: 90%;
+}
+.bk_but{
+	width: 40%;
 }
 }
 @media screen and (max-width:1120px){
@@ -247,6 +280,41 @@ a.water{
 .fp2 > div.slidtxt,.fp2 > div, .slidpic.owl-carousel.owl-theme {
     width: 96%;
 }
+.fd1 > div {
+	width: 46%;
+	height: 250px;
+}
+.fd1 > div.fd1_3{
+	float: right;
+	margin-right: 2.8%;
+}
+.fd1 > div.fd1_4{
+	float: left;
+	margin-left: 2.8%;
+}
+.fd1 > div span{
+	padding-top: 75px;
+}
+.fd3 .tips{
+	width: 90%;
+	margin-left: 5%;
+	text-align: left;
+}
+.bk_p1{
+	width: 100%;
+}
+.bk_but{
+	width: 40%;
+}
+.bk_but > div{
+	margin: 25px 0 25px 50px;
+}
+.cale{
+	width: 57%;
+}
+.bk_time {
+    width: 90%;
+}
 }
 @media screen and (max-width:880px){
 .t1{
@@ -327,6 +395,30 @@ a.water{
     font-weight: 400;
 	letter-spacing: 0;
 }
+.bk_but{
+	width: 36%;
+}
+.bk_but > div{
+	margin: 25px 0 25px 20px;
+}
+.cale{
+	width: 60%;
+}
+.bk_time {
+    width: 100%;
+}
+.bk_time > div {
+    width: 180px;
+	margin: 10px 2px;
+}
+}
+@media screen and (max-width:850px){
+.fd1 > div.fd1_3{
+	margin-right: 2.5%;
+}
+.fd1 > div.fd1_4{
+	margin-left: 2.5%;
+}
 }
 @media screen and (max-width:800px){
 .moreservice > div {
@@ -358,7 +450,6 @@ a.water{
 	display: block;
 	width: 100%;
 }
-
 }
 @media screen and (max-width:760px){
 .loc_kvtxt .t4{
@@ -393,6 +484,22 @@ a.water{
 }
 .page_list li{
 	padding:0;
+}
+}
+@media screen and (max-width:720px){
+.fd1 > div{
+	display: block;
+	width: 96%;
+	height: 250px;
+	margin: 10px;
+}
+.fd1 > div.fd1_3,.fd1 > div.fd1_4{
+	float: none;
+}
+.fd1 > div span{
+	display: inline-block;
+	padding-top: 70px;
+	height: 230px;
 }
 }
 @media screen and (max-width:660px){
@@ -511,6 +618,34 @@ a.water{
     width: 90%;
     margin-left: 5%;
 }
+.bk_p1 > div{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+.bk_p1 > div.cale{
+	margin: 50px auto;
+}
+.bk_but > div{
+	display: inline-block;
+	margin: 5px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	transition: 0.3s;
+}
+.bk_but > div:hover{
+	background: #efefef;
+}
+.bk_time > div{
+	width: 160px;
+}
+
+
+
+
 }
 @media screen and (max-width:550px){
 .t1{
