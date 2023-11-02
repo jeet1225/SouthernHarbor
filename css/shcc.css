@@ -1442,3 +1442,20 @@ table.pricetable.table4 tr:nth-child(even){
 	background: #efefef;
 	color: #3588bd;
 }
+.pnt_out{
+	padding: 200px 0 100px 0;
+}
+.pagenotfound{
+	background: url(../img/404.png) center top no-repeat;
+	width: 100%;
+	height: 400px;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 auto;
+	padding: 200px 0;
+}
+.pagenotfound p{
+	padding-top: 30px;
+	font-size: 20px;
+}
